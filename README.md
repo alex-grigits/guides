@@ -22,7 +22,16 @@ Personal guides for development
 <table>
   <thead>
     <tr>
-      <td>eggergegerg</td>
+      <td>Data direction</td>
+      <td>Syntax</td>
+      <td>Binding type</td>
     </tr>
   </thead>
+  <tbody>
+    <tr>
+    <td>One-way from data source to view target</td>
+    <td>{{expression}} [target] = "expression" bind-target = "expression"</td>
+    <td>Interpolation <br> Property <br> Attribute <br> Class <br> Style</td>
+    </tr>
+  </tbody>
 </table>
