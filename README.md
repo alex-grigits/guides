@@ -1,10 +1,10 @@
 # Guides
 Personal guides for development
 ## Structure of Angular 2 App
-`/ng2-app
-  /app
-    /people
-      people.modeule
+`/ng2-app <br>
+  /app  <br>
+    /people <br>
+      people.modeule <br>
       people.component
       peopleList.component
       /profile
