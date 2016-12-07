@@ -5,13 +5,13 @@ Personal guides for development
 /ng2-app
   /app
     /people
-      people.modeule
+      people.module
       people.component
       peopleList.component
       /profile
         profile.component
     /contacts
-      contacts.modeule
+      contacts.module
       contactList.component
       contactDetail.component
     app.component
