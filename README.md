@@ -1,10 +1,11 @@
 # Guides
 Personal guides for development
 ## Structure of Angular 2 App
-`/ng2-app <br>
-  /app  <br>
-    /people <br>
-      people.modeule <br>
+```
+/ng2-app
+  /app
+    /people
+      people.modeule
       people.component
       peopleList.component
       /profile
@@ -14,5 +15,6 @@ Personal guides for development
       contactList.component
       contactDetail.component
     app.component
-    app.module`
+    app.module
+```
 ## Data Binding
