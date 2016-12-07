@@ -29,9 +29,19 @@ Personal guides for development
   </thead>
   <tbody>
     <tr>
-    <td>One-way from data source to view target</td>
-    <td>{{expression}} [target] = "expression" bind-target = "expression"</td>
-    <td>Interpolation <br> Property <br> Attribute <br> Class <br> Style</td>
+      <td>One-way from data source to view target</td>
+      <td>{{expression}} [target] = "expression" bind-target = "expression"</td>
+      <td>Interpolation <br> Property <br> Attribute <br> Class <br> Style</td>
+    </tr>
+    <tr>
+      <td>One-way from view target to data source</td>
+      <td>(target) = "statement" on-target = "statement"</td>
+      <td>Event</td>
+    </tr>
+    <tr>
+      <td>Two-way</td>
+      <td>[(target)] = "expression" bindon-target = "expression"</td>
+      <td>Two-way</td>
     </tr>
   </tbody>
 </table>
