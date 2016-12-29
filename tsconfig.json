@@ -1,17 +1,24 @@
-{ 
-    "compileOnSave": false, 
-    "compilerOptions": { 
-        "emitDecoratorMetadata": true, 
-        "experimentalDecorators": true, 
-        "module": "system", 
-        "moduleResolution": "node", 
-        "noImplicitAny": false, 
-        "noEmitOnError": false, 
-        "removeComments": false, 
-        "target": "es5" 
-    }, 
-    "exclude": [ 
-        "node_modules", 
-        "wwwroot" 
-    ] 
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "system",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "removeComments": false,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es6"
+    ]
+  },
+  "types": [
+    "node"
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
 }
